@@ -1,15 +1,15 @@
 Title: Khalil Harir's Journey into Machine Learning and Data Engineering
 
-Introduction
+Introduction :
 Hello and welcome to my corner of GitHub! Here, I'm sharing my story as I dive into the captivating worlds of machine learning and data engineering. In this README, I'll walk you through who I am, what motivates me, and what you can expect to find in this repository.
 
-About Me
+About Me :
 I'm Khalil Harir, and I've had a diverse background in Software engineer. But there's always been this spark in me, a curiosity that leads me to explore new horizons. Now, I'm following that curiosity into the realms of machine learning and data engineering.
 
-Motivation
+Motivation :
 What drives me? It's the thrill of discovery, the excitement of solving puzzles with data. I believe in the power of information to transform the world around us. Whether it's predicting trends, optimizing processes, or uncovering hidden insights, data has the potential to make a real difference, and I want to be part of that change.
 
-What to Expect
+What to Expect :
 Here's what you'll find in this repository:
 
 Projects: I'll be sharing projects that I've worked on, each one a journey of exploration and learning.
