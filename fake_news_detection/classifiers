@@ -1,28 +1,44 @@
-Support Vector Machine: This algorithm is mostly used for classification. This is a supervised
+Support Vector Machine:
+This algorithm is mostly used for classification. This is a supervised
 machine learning algorithm that learns from the labeled data set. Researchers in (Singh et
 al., 2017) used various classifiers of machine learning and the support vector machine have
 given them the best results in detecting the fake news.
-Naïve Bayes: Naïve Bayes is also used for the classification tasks. This can be used to check
+
+
+Naïve Bayes: 
+Naïve Bayes is also used for the classification tasks. This can be used to check
 whether the news is authentic or fake. Researchers in (Pratiwi et al., 2017) used this
 classifier of machine learning to detect the false news.
-Logistic Regression: This classifier is used when the value to be predicted is categorical. For
+
+
+Logistic Regression: 
+This classifier is used when the value to be predicted is categorical. For
 example, it can predict or give the result in true or false. Researchers in (Kaur et al., 2020)
 have used this classifier to detect the news whether it is true or fake.
 Random Forests: In this classifier, there are different random forests that give a value and a value
 with more votes is the actual result of this classifier. In (Ni et al., 2020) researchers have
 used different machine learning classifiers to detect the fake news. One of these classifiers
 is the random forest.
-Recurrent Neural Network: This classifier is also helpful for detecting the fake news.
+
+
+Recurrent Neural Network: 
+This classifier is also helpful for detecting the fake news.
 Researchers in (Jadhav & Thepade, 2019) have used the recurrent neural network to
 classify the news as true or false.
-Neural Network: There are different algorithms of machine learning that are used to help in
+
+
+Neural Network: 
+There are different algorithms of machine learning that are used to help in
 classification problems. One of these algorithms is the neural network. Researchers in
 (Kaliyar et al., 2020) have used the neural network to detect the fake news.
 K-Nearest Neighbor: This is a supervised algorithm of machine learning that is used for solving
 the classification problems. This stores the data about all the cases to classify the new case
 on the base of similarity. Researchers (Kesarwani et al., 2020) have used this classifier to
 detect fake news on social media.
-Decision Tree: This supervised algorithm of machine learning can help to detect the fake news. It
+
+
+Decision Tree: 
+This supervised algorithm of machine learning can help to detect the fake news. It
 breaks down the dataset into different smaller subsets. Researchers in (Kotteti et al., 2018)
 have used different machine learning classifiers and one of them is the decision tree. They
 have used these classifiers to detect the fake news. 
