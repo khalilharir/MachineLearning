@@ -1,0 +1,11 @@
+Pour ce premier code, nous n’allons pas importer de données personnelles. 
+Plutôt, nous allons générer un tableau de données (𝒙,𝒚) aléatoires.
+Pour cela, la fonction make_regression est très utile. 
+La fonction prend comme arguments (c’est le mot pour désigner inputs) le nombre d’échantillons à générer, le nombre de variables et le bruit puis nous retourne deux vecteurs 𝒙 et 𝒚.
+Pour maitriser l’aléatoire, on écrit la ligne np.random.seed(0).
+Finalement, pour visualiser nos données on utilise la fonction plt.scatter(x, y).
+
+
+np.random.seed(0) 
+x, y = make_regression(n_samples=100, n_features=1, noise=10) 
+plt.scatter(x, y)
