@@ -1,3 +1,6 @@
 Il vous suffit de définir une variable model depuis le générateur SGDRegressor en entrant le nombre d’itérations que le Gradient Descent doit effectuer ainsi que le Learning Rate.
 Une fois le modèle défini, il vous faut l’entraîner. Pour cela, il suffit d’utiliser la fonction fit.
-Par exemple, entraînons notre modèle sur 100 itérations avec un Learning rate de 0.0001 : model = SGDRegressor(max_iter=100, eta0=0.0001) model.fit(x,y)
+Par exemple, entraînons notre modèle sur 100 itérations avec un Learning rate de 0.0001 : 
+
+model = SGDRegressor(max_iter=100, eta0=0.0001) 
+model.fit(x,y)
