@@ -1,0 +1,26 @@
+###########################
+# Train Naive Bayes Model
+###########################
+def Naive_Bayes(data):
+    # Step 1: Calculate Prior Probability
+    y_unique = data.y.unique()
+    prior_probability = np.zeros(len(data.y.unique()))
+    for i in range(0,len(y_unique)):
+        prior_probability[i]=sum(data['y']==y_unique[i])/len(data['y'])
+    
+    # Step 2: Calculate Conditional Probability
+    conditional_probability = {}
+    for i in range(1,data.shape[1]):
+        x_unique = list(set(data['x'+str(i)]))
+        x_conditional_probability = np.zeros((len(data.y.unique()),len(set(data['x'+str(i)]))))
+        for j in range(0,len(y_unique)):
+            for k in range(0,len(x_unique)):
+                x_conditional_probability[j,k]=data.loc[(data['x'+str(i)]==x_unique[k])&(data['y']==y_unique[j]),].shape[0]/sum(data['y']==y_unique[j])
+    
+        x_conditional_probability = pd.DataFrame(x_conditional_probability,columns=x_unique,index=y_unique)   
+        conditional_probability['x'+str(i)] = x_conditional_probability       
+    
+    return prior_probability,conditional_probability
+    
+ 
+prior_probability,conditional_probability = Naive_Bayes(data)
