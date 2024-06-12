@@ -1,0 +1,21 @@
+Régression Linéaire : Utilisée pour les tâches de régression où l'objectif est de prédire une valeur continue. Elle assume une relation linéaire entre les caractéristiques d'entrée et la variable cible.
+
+Régression Logistique : Utilisée pour les tâches de classification binaire. Elle prédit la probabilité qu'un exemple appartienne à une classe donnée.
+
+Machines à Vecteurs de Support (SVM) : Utilisées pour les tâches de classification et de régression. Elles cherchent à trouver l'hyperplan qui maximise la marge entre les différentes classes dans les données.
+
+Arbres de Décision : Utilisés pour la classification et la régression. Ils construisent un modèle en divisant les données en sous-ensembles basés sur des tests de valeur des caractéristiques.
+
+Forêts Aléatoires (Random Forests) : Ensemble d'arbres de décision utilisés pour améliorer la précision et contrôler le surapprentissage. Chaque arbre est construit à partir d'un échantillon aléatoire des données.
+
+k-Plus Proches Voisins (k-Nearest Neighbors, k-NN) : Utilisé principalement pour la classification. Il classe un échantillon en fonction des classes des k échantillons les plus proches dans l'espace des caractéristiques.
+
+Réseaux de Neurones Artificiels : Utilisés pour des tâches complexes de classification et de régression. Ils sont inspirés du fonctionnement du cerveau humain et sont particulièrement puissants dans le traitement de données non linéaires.
+
+Gradient Boosting Machines (GBM) : Inclut des algorithmes comme XGBoost, LightGBM et CatBoost. Ils construisent des modèles prédictifs en combinant plusieurs modèles faibles pour créer un modèle fort, en minimisant les erreurs de manière itérative.
+
+Naive Bayes : Basé sur le théorème de Bayes, il est utilisé pour la classification. Il est particulièrement efficace pour les problèmes de traitement du langage naturel.
+
+Réseaux de Neurones Convolutionnels (CNN) : Principalement utilisés pour les données visuelles, comme les images. Ils exploitent les relations spatiales entre les pixels.
+
+Réseaux de Neurones Récurrents (RNN) et LSTM (Long Short-Term Memory) : Utilisés pour les données séquentielles, comme les séries temporelles et les données textuelles.
